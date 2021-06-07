@@ -32,7 +32,8 @@ public class cumulative
 	    public void reduce(Text key, Iterator < IntWritable > values, OutputCollector < Text, IntWritable > output, Reporter reporter) throws IOException 
 	    { 
 	      int total = 0;
-	      while (values.hasNext()) {
+	      while (values.hasNext()) 
+				{
 	        total += values.next().get();
 	      }
 	      output.collect(key, new IntWritable(total));
