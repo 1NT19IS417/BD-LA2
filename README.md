@@ -7,5 +7,5 @@ Batch : B3
 
 <hr />
 
-# Main Repo 
+# Main Repository 
 [BD Lab Main Repository](https://github.com/1NT19IS417/1NT19IS417_mukund_B_bdLab)
